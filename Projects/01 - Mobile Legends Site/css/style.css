@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    background-color: rgb(36,68,89);
+}
+
+/* Auxiliares de visualização*/
+.show-1{
+    border: 1px solid red;
+}
+
+.show-2{
+    border: 1px solid blue;
+}
+
+.show-3{
+    border: 1px solid green;
+}
+
+.show-4{
+    border: 1px solid pink;
+}
+
+/* Menu */
+.container-menu{
+    height: 16Vh;
+    width: 100Vw;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.container-logo{
+    height: 16Vh;
+    width: 30%;
+    position: fixed;
+    left: 0%;
+    background-image: url("../imgs/Logo_MLBB_.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-nav{
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.container-btn{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    text-align: end;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-nav-ajust{
+    color: white;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+/* Main */
+main{
+    margin-top: 20Vh;
+}
+
+/* Section 1 */
+.section-1{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5Vw;
+}
+
+.text-description{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.image-01{
+    background-image: url("https://s2-techtudo.glbimg.com/EyriG5ZUzoGakcH2GOd0QkcPg7g=/0x0:984x480/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/Q/E/nJxb80RPCuBoyeaEtPRg/mobile-legends.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 10px black;
+    height: calc((100Vw - 10Vw - 8rem) / 2);
+}
+
+.about-style{
+    padding: 0px 4rem;
+    text-align: justify;
+}
+
+.interesting-facts-style{
+    padding: 3rem 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    background-color: rgb(212, 212, 212);
+}
+
+/* Section 2 */
+.section-2{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5Vw;
+}
+
+.container-2{
+    height: calc((100Vw - 10Vw - 8rem) / 4);
+}

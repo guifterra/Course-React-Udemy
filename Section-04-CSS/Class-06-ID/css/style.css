@@ -1,0 +1,19 @@
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+    color: green;
+}
+
+.paragraph{
+    background-color: black;
+    color: aqua;
+    padding: 50px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
