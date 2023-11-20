@@ -1,0 +1,36 @@
+/* Media query */
+h1{
+    color: red;
+    text-align: center;
+}
+
+h3{
+    display: none;
+    text-align: center;
+}
+
+p{
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 700px){
+    p{
+        color: #333;
+        background-color: #fff;
+    }
+}
+
+@media screen and (orientation: landscape){
+    h3{
+        display: block;
+    }
+}
