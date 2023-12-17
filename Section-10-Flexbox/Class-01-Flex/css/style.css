@@ -143,3 +143,46 @@ body{
 .basis .big{
     flex-grow: 1;
 }
+
+/* Class 10 */
+.shrink{
+    display: flex;
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: 2;
+}
+
+/* Class 11 */
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    flex: 1 1 50px;
+    width: auto;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+    width: auto;
+}
+
+/* Class 12 */
+.auto-aligment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid red;
+}
+
+.auto-aligment .different{
+    align-self: center;
+}
