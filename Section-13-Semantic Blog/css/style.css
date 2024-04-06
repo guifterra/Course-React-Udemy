@@ -36,3 +36,104 @@ a:hover{
     display: flex;
     gap: 1rem;
 }
+
+/* Main content */
+.container{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#posts-container{
+    flex: 3 1 0;
+}
+
+.post{
+    margin-bottom: 2.5rem;
+}
+
+.post img{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.title,
+.description{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+/* sidebar */
+#sidebar{
+    flex: 1 1 0;
+}
+
+#search-bar,
+#category,
+#tags{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#category h4,
+#tags h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form{
+    display: flex;
+}
+
+#search-bar input{
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+}
+
+#search-bar input[type="submit"]{
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+
+#category li{
+    margin-bottom: 1rem;
+}
+
+#tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#tags-container a{
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+#footer{
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+#footer h2,
+#footer p{
+    margin-bottom: 1rem;
+}
+
+/* Responsiviness */
+@media(max-width: 450px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
