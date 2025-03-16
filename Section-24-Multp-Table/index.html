@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muiltiplication Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <h2>Enter numbers to generate a Multiplication Table</h2>
+    <form action="" id="multiplication-form">
+        <div class="form-control">
+            <label for="number">Table of:</label>
+            <input type="number" name="number" id="number" placeholder="3">
+        </div>
+        <div class="form-control">
+            <label for="mult">Multiply until</label>
+            <input type="number" name="mult" id="mult" value="10">
+        </div>
+        <input type="submit" value="Calculate">
+    </form>
+    <div id="multiplication-table">
+        <h2 id="multiplication-title">Multiplication Table of number: <span></span></h2>
+        <div id="multiplication-operations">
+            <p>Enter a number to calculate the multiplication table...</p>
+            <div class="row">
+                <div class="operation">5 x 1 =</div>
+                <div class="result">5</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
